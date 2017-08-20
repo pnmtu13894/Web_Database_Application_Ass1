@@ -38,8 +38,10 @@ class TicketsController extends Controller
             'macOS X'
         ];
 
+        $tickets = Ticket::all();
 
-        return view('user.index', compact('error_types','operating_systems'));
+
+        return view('user.index', compact('error_types','operating_systems', 'tickets'));
     }
 
     /**

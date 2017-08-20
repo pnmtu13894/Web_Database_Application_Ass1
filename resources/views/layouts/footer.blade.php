@@ -1,4 +1,4 @@
-<div class="footer navbar-bottom bg-primary text-white">
+<div class="footer navbar-fixed-bottom bg-primary text-white">
 
 	<div class="container">
 

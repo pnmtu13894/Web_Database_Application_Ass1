@@ -27,10 +27,12 @@
 <div class="container">
 	@yield('content')
 </div>
-
-{{--<div class="container">--}}
+{{----}}
+<div class="container">
+	{{--<div class="row">--}}
 	@yield('footer')
-{{--</div>--}}
+	{{--</div>--}}
+</div>
 
 
 
